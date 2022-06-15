@@ -10,8 +10,7 @@ int temp;
 void Push(){
 	cout<<"masukan nomor antrian: ";
 	cin>>temp;
-	Kereta.push_back(temp);
-	
+	Kereta.push_back(temp);	
 }
 
 void pop(){
@@ -19,7 +18,6 @@ void pop(){
 }
 
 int main(){
-	
 	int p;
 	
 	do{
@@ -34,7 +32,7 @@ int main(){
 		cout<<"pilih menu: ";
 		cin>>p;
 		
-		system("cls");
+	system("cls");
 		
 		if(p == 1){
 			Push();
@@ -48,8 +46,7 @@ int main(){
 		}else{
 			cout<<"TIDAK TERDETEKSI PADA SISTEM STASIUN MANAPUN!!\n"
 		}
-		
-		
+			
 	}
 	while(p != 4);
 	
