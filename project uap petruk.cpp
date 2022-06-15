@@ -8,13 +8,25 @@ list<int>::iterator it;
 int temp;
 
 void Push(){
-	cout<<"masukan nomor antrian: ";
+	cout<<"Masukan Nomor Antrian Anda : ";
 	cin>>temp;
 	Kereta.push_back(temp);	
 }
 
 void pop(){
 	Kereta.pop_front();
+}
+
+void clear(){
+	Kereta.clear();
+}
+void print(){
+	cout<<"\tantrian: "<<endl;
+	cout<<"=======================\n";
+    for(it = Kereta.begin(); it != Kereta.end();it++){
+        cout<<"\t>>"<<*it<<"<<\n";
+    }
+    cout<<"=======================\n";
 }
 
 int main(){
