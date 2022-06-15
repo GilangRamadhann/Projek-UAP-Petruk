@@ -13,11 +13,26 @@ void Push(){
 	
 }
 
+void pop(){
+	Kereta.pop_front();
+}
+
 int main(){
 	
 	int p;
 	
 	do{
+		print();
+		cout<<"\nMenu\n";
+		cout<<"1. Tambah Antrian\n";
+		cout<<"2. Panggil Antrian\n";
+		cout<<"3. Kosongkan Antrian\n";
+		cout<<"4. Exit\n";
+		
+		cout<<"pilih menu: ";
+		cin>>p;
+		
+		system("cls");
 		
 		if(p == 1){
 			Push();
