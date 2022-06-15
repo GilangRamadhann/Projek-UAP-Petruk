@@ -31,7 +31,6 @@ int main(){
 		
 		cout<<"pilih menu: ";
 		cin>>p;
-		
 		system("cls");
 		
 		if(p == 1){
