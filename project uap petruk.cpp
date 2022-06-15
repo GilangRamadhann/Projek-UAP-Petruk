@@ -4,6 +4,7 @@
 using namespace std;
 
 list<int>Kereta;
+list<int>::iterator it;
 int temp;
 
 void Push(){
