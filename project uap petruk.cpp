@@ -40,7 +40,7 @@ int main(){
 	do{
 		print();
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~"<<endl;
-		cout<<"\tMenu"<<endl;;
+		cout<<"\tMenu"<<endl;
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		cout<<"1. Tambah Antrian"<<endl;
 		cout<<"2. Panggil Antrian"<<endl;
