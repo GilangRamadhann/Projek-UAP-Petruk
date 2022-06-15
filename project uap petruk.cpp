@@ -39,13 +39,13 @@ int main(){
 	
 	do{
 		print();
-		cout<<"~~~~~~~~~~~~~~~~~~~~~~\n";
-		cout<<"\tMenu\n";
-		cout<<"~~~~~~~~~~~~~~~~~~~~~~\n";
-		cout<<"1. Tambah Antrian\n";
-		cout<<"2. Panggil Antrian\n";
-		cout<<"3. Kosongkan Antrian\n";
-		cout<<"4. Exit\n";
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+		cout<<"\tMenu"<<endl;;
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+		cout<<"1. Tambah Antrian"<<endl;
+		cout<<"2. Panggil Antrian"<<endl;
+		cout<<"3. Kosongkan Antrian"<<endl;
+		cout<<"4. Exit"<<endl;
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~\n";
 		
 		cout<<"Pilih Menu: ";
