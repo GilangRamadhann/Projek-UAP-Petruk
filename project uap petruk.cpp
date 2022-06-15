@@ -23,6 +23,7 @@ int main(){
 	
 	do{
 		print();
+		
 		cout<<"\nMenu\n";
 		cout<<"1. Tambah Antrian\n";
 		cout<<"2. Panggil Antrian\n";
@@ -31,12 +32,14 @@ int main(){
 		
 		cout<<"pilih menu: ";
 		cin>>p;
+		
 		system("cls");
 		
 		if(p == 1){
 			Push();
 		}else if(p == 2){
-			//prospop
+			pop();
+			cout<<"ANTRIAN PALING DEPAN TELAH MENUJU LOKET~~~\n";
 		}else if(p == 3){
 			//prosclear
 		}else if(p == 4){
@@ -49,4 +52,5 @@ int main(){
 	}
 	while(p != 4);
 	
+	return 0;
 }
