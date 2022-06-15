@@ -30,7 +30,7 @@ void print(){
 	    Sleep(500);
         cout<<"||antrian nomor >> "<<*it<<" <<||\n";
     }
-    cout<<"==========================\n";
+    cout<<"==========================\n\n";
 }
 
 int main(){
@@ -39,12 +39,14 @@ int main(){
 	
 	do{
 		print();
-		
-		cout<<"\nMenu\n";
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~\n";
+		cout<<"\tMenu\n";
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~\n";
 		cout<<"1. Tambah Antrian\n";
 		cout<<"2. Panggil Antrian\n";
 		cout<<"3. Kosongkan Antrian\n";
 		cout<<"4. Exit\n";
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~\n";
 		
 		cout<<"Pilih Menu: ";
 		cin>>p;
