@@ -38,6 +38,11 @@ int main(){
 	int p;
 	
 	do{
+		
+		cout<<"~~SELAMAT DATANG DI STASIUN TANAH ABANG~~\n";
+		cout<<"SILAHKAN MENGANTRI DENGAN TERTIB!\n\n";
+		system("color 71");
+		
 		print();
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		cout<<"\tMenu"<<endl;
@@ -48,7 +53,7 @@ int main(){
 		cout<<"4. Exit"<<endl;
 		cout<<"~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		
-		cout<<"Pilih Menu: ";
+		cout<<"\nPilih Menu: ";
 		cin>>p;
 		
 		system("cls");
