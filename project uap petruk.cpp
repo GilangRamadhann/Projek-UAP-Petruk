@@ -1,6 +1,7 @@
 #include<iostream>
 #include<list>
 #include<iterator>
+#include<windows.h>
 using namespace std;
 
 list<int>Kereta;
@@ -8,8 +9,8 @@ list<int>::iterator it;
 int temp;
 
 
-void push(){
-	cout<<"Masukan Nomor Antrian Anda : ";
+void Push(){
+	cout<<"Masukan Nomor Antrian: ";
 	cin>>temp;
 	Kereta.push_back(temp);
 	
@@ -24,11 +25,12 @@ void clear(){
 }
 void print(){
 	cout<<"\tantrian: "<<endl;
-	cout<<"=======================\n";
+	cout<<"==========================\n";
     for(it = Kereta.begin(); it != Kereta.end();it++){
-        cout<<"\t>>"<<*it<<"<<\n";
+	    Sleep(500);
+        cout<<"||antrian nomor >> "<<*it<<" <<||\n";
     }
-    cout<<"=======================\n";
+    cout<<"==========================\n";
 }
 
 int main(){
@@ -50,7 +52,7 @@ int main(){
 		system("cls");
 		
 		if(p==1){
-			push();
+			Push();
 		}else if(p==2){
 			pop();
 			cout<<"ANTRIAN PALING DEPAN TELAH DIPANGGIL~~\n";
