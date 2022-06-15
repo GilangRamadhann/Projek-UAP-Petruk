@@ -46,7 +46,7 @@ int main(){
 		cout<<"2. Panggil Antrian"<<endl;
 		cout<<"3. Kosongkan Antrian"<<endl;
 		cout<<"4. Exit"<<endl;
-		cout<<"~~~~~~~~~~~~~~~~~~~~~~\n";
+		cout<<"~~~~~~~~~~~~~~~~~~~~~~"<<endl;
 		
 		cout<<"Pilih Menu: ";
 		cin>>p;
