@@ -19,7 +19,20 @@ int main(){
 	
 	do{
 		
+		if(p == 1){
+			Push();
+		}else if(p == 2){
+			//prospop
+		}else if(p == 3){
+			//prosclear
+		}else if(p == 4){
+			cout<<"~~~TERIMAKASIH ATAS KUNJUNGANYA~~~\n";
+		}else{
+			cout<<"TIDAK TERDETEKSI PADA SISTEM STASIUN MANAPUN!!\n"
+		}
+		
 		
 	}
+	while(p != 4);
 	
 }
