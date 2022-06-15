@@ -1,7 +1,7 @@
 # Projek-UAP-Petruk
 Kelompok (Gilang,April,Ika)
 
-Program ini kami susun untuk memenuhi UAP Pemrograman Terstruktur. Program ini kami beri tema "Queue Tiket Antrian Kereta Api"
+Program ini kami susun untuk memenuhi UAP Pemrograman Terstruktur. Program ini kami beri tema "Queue / Antrian Pembelian Tiket Antrian Kereta Api"
 
 Anggota :
 
