@@ -7,10 +7,12 @@ list<int>Kereta;
 list<int>::iterator it;
 int temp;
 
-void Push(){
+
+void push(){
 	cout<<"Masukan Nomor Antrian Anda : ";
 	cin>>temp;
-	Kereta.push_back(temp);	
+	Kereta.push_back(temp);
+	
 }
 
 void pop(){
@@ -30,6 +32,7 @@ void print(){
 }
 
 int main(){
+	
 	int p;
 	
 	do{
@@ -41,24 +44,24 @@ int main(){
 		cout<<"3. Kosongkan Antrian\n";
 		cout<<"4. Exit\n";
 		
-		cout<<"pilih menu: ";
+		cout<<"Pilih Menu: ";
 		cin>>p;
 		
-	system("cls");
+		system("cls");
 		
-		if(p == 1){
-			Push();
-		}else if(p == 2){
+		if(p==1){
+			push();
+		}else if(p==2){
 			pop();
-			cout<<"ANTRIAN PALING DEPAN TELAH MENUJU LOKET~~~\n";
-		}else if(p == 3){
-			//prosclear
-		}else if(p == 4){
-			cout<<"~~~TERIMAKASIH ATAS KUNJUNGANYA~~~\n";
+			cout<<"ANTRIAN PALING DEPAN TELAH DIPANGGIL~~\n";
+		}else if(p==3){
+			clear();
+			cout<<"ANTRIAN PADA STASIUN TELAH DIBERSIHKAN!\n";
+		}else if(p==4){
+			cout<<"~TERIMAKASIH ATAS KUNJUNGANYA~\n";
 		}else{
-			cout<<"TIDAK TERDETEKSI PADA SISTEM STASIUN MANAPUN!!\n"
+			cout<<"TIDAK TERDETEKSI DALAM SISTEM STASIUN MANAPUN!\n";
 		}
-			
 	}
 	while(p != 4);
 	
